@@ -43,7 +43,7 @@ app.get("/*", function(req, res){
   res.sendFile(__dirname + "/views/main.html");
 });
 
-var port = process.env.PORT || 3001)
+var port = process.env.PORT || 3001
 app.listen(port, function() {
   console.log("app listening on port 3001")
 })
